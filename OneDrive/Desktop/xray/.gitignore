@@ -1,0 +1,42 @@
+# Model files
+*.keras
+*.h5
+*.pb
+
+# Dataset directories
+Chest_XRay_5Class_Dataset/
+dataset_1/
+dataset_2/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+venv/
+.venv/
+.venv_*/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Test X-rays directory (optional - uncomment if you want to exclude)
+# test_xrays/
